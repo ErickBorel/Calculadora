@@ -1,0 +1,19 @@
+.buttons {
+    margin: 5px;
+    background-color: #717790;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px #000000;
+    cursor: pointer;
+    border: none;
+}
+
+.buttons:hover {
+    background-color: #808080;
+}
+
+.buttons.-btnl {
+    height: 106px;
+}
