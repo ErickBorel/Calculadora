@@ -1,0 +1,9 @@
+.calculator {
+    position: absolute;
+    background-color: #425C57;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    padding: 25px;
+}
