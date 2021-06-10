@@ -6,6 +6,7 @@ function insert(number) {
 
 function clean() {
     document.getElementById('visor').innerHTML = "";
+    document.getElementById('visor2').innerHTML = "";
 }
 
 function back() {
@@ -16,8 +17,8 @@ function back() {
 function calcular() {
     var visor = document.getElementById('visor').innerHTML;
     if(visor) {
-        document.getElementById('visor').innerHTML = eval(visor);
+        document.getElementById('visor2').innerHTML = eval(visor);
     } else {
-        document.getElementById('visor').innerHTML = "Erro";
+        document.getElementById('visor2').innerHTML = "Erro";
     }
 }
