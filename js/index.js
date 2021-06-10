@@ -17,5 +17,7 @@ function calcular() {
     var visor = document.getElementById('visor').innerHTML;
     if(visor) {
         document.getElementById('visor').innerHTML = eval(visor);
+    } else {
+        document.getElementById('visor').innerHTML = "Erro";
     }
 }
