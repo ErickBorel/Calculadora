@@ -7,45 +7,49 @@
     <link rel="stylesheet" href="css/components/main-backgorund.css">
     <link rel="stylesheet" href="css/components/calculator.css">
     <link rel="stylesheet" href="css/components/buttons.css">
+    <link rel="stylesheet" href="css/components/visor.css">
+    <link rel="stylesheet" href="css/components/keyboard.css">
+    <link rel="stylesheet" href="css/components/main-title.css">
 </head>
 <body>
     <div class="background">
         <div class="calculator">
-            <h1>Calculadora</h1>
-
+            <h1 class="title">Calculadora</h1>
+            
             <p id="visor" class="visor">visor</p>
-            <table>
+            <table class="keyboard">
                 <tr>
-                    <td><button class="buttons">C</button></td>
-                    <td><button class="buttons">del</button></td>
-                    <td><button class="buttons">/</button></td>
-                    <td><button class="buttons">X</button></td>
+                    <td><button class="buttons" onclick="">C</button></td>
+                    <td><button class="buttons" onclick="">del</button></td>
+                    <td><button class="buttons" onclick="">/</button></td>
+                    <td><button class="buttons" onclick="">X</button></td>
                 </tr>
                 <tr>
-                    <td><button class="buttons">7</button></td>
-                    <td><button class="buttons">8</button></td>
-                    <td><button class="buttons">9</button></td>
-                    <td><button class="buttons">.</button></td>
+                    <td><button class="buttons" onclick="">7</button></td>
+                    <td><button class="buttons" onclick="">8</button></td>
+                    <td><button class="buttons" onclick="">9</button></td>
+                    <td><button class="buttons" onclick="">.</button></td>
                 </tr>
                 <tr>
-                    <td><button class="buttons">4</button></td>
-                    <td><button class="buttons">5</button></td>
-                    <td><button class="buttons">6</button></td>
-                    <td><button class="buttons">-</button></td>
+                    <td><button class="buttons" onclick="">4</button></td>
+                    <td><button class="buttons" onclick="">5</button></td>
+                    <td><button class="buttons" onclick="">6</button></td>
+                    <td><button class="buttons" onclick="">-</button></td>
                 </tr>
                 <tr>
-                    <td><button class="buttons">1</button></td>
-                    <td><button class="buttons">2</button></td>
-                    <td><button class="buttons">3</button></td>
-                    <td rowspan="2"><button class="buttons -btnl">+</button></td>
+                    <td><button class="buttons" onclick="">1</button></td>
+                    <td><button class="buttons" onclick="">2</button></td>
+                    <td><button class="buttons" onclick="">3</button></td>
+                    <td rowspan="2"><button class="buttons -btnl" onclick="">+</button></td>
                 </tr>
                 <tr>
-                    <td><button class="buttons">0</button></td>
-                    <td><button class="buttons">00</button></td>
-                    <td><button class="buttons">=</button></td>
+                    <td><button class="buttons" onclick="">0</button></td>
+                    <td><button class="buttons" onclick="">00</button></td>
+                    <td><button class="buttons" onclick="">=</button></td>
                 </tr>
             </table>
         </div>
     </div>
+    <script src="js/index.js"></script>
 </body>
 </html>
