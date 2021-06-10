@@ -7,4 +7,10 @@
     text-align: end;
     padding-left: 5px;
     padding-right: 5px;
+    overflow: hidden;
+    text-overflow: clip;
 }
+
+.limite {
+    width: 244px;
+} 
