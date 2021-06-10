@@ -2,13 +2,13 @@
     margin: 2px;
     font-size: 55px;
     width: 244px;
-    height: 70px;
+    height: 74px;
     background-color: #C4C4C4;
     text-align: end;
     padding-left: 5px;
     padding-right: 5px;
-    overflow: hidden;
-    text-overflow: clip;
+    overflow: auto;
+    
 }
 
 .limite {
